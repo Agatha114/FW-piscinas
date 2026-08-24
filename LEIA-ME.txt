@@ -1,0 +1,28 @@
+# FW Piscinas — PWA
+
+Esta pasta é a versão instalável do sistema FW Piscinas.
+
+Arquivos:
+- index.html — sistema
+- manifest.json — configurações do app
+- service-worker.js — cache/offline do app
+- icons/ — ícones usando o logo enviado
+
+IMPORTANTE:
+Para instalar como PWA no celular, publique esta pasta em um endereço HTTPS.
+Abrir o index.html diretamente como arquivo não habilita a instalação PWA.
+
+No iPhone:
+1. Abra o endereço publicado no Safari.
+2. Toque em Compartilhar.
+3. Toque em "Adicionar à Tela de Início".
+4. Ative "Abrir como App da Web".
+5. Toque em Adicionar.
+
+No Android:
+1. Abra o endereço publicado no navegador compatível.
+2. Procure a opção de instalar/adicionar à tela inicial.
+3. Confirme a instalação.
+
+Observação:
+O sistema atual ainda usa alguns recursos externos (Tailwind CDN e Font Awesome), então o modo offline pode ficar limitado até esses recursos também serem incorporados localmente.
